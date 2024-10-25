@@ -58,6 +58,35 @@
         <PackageReference Include="RestSharp" Version="110.2.0" />
         <PackageReference Include="RestSharp.Newtonsoft.Json" Version="1.5.1" />
         <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="110.2.0" />
+        <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Conversion\bin\Release\net8.0\CUE4Parse-Conversion.deps.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Conversion\obj\CUE4Parse-Conversion.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Conversion\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Conversion\obj\Release\net8.0\CUE4Parse-Conversion.sourcelink.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test1_run1.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test1_run2.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test2_run.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test3_run0.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test3_run1.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test4_run.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test4_run0.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\benchmark\tools\gbench\Inputs\test4_run1.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test1_run1.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test1_run2.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test2_run.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test3_run0.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test3_run1.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test4_run.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test4_run0.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse-Natives\ACL\external\acl\external\rtm\external\benchmark\tools\gbench\Inputs\test4_run1.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse\bin\Release\net8.0\CUE4Parse.deps.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse\obj\CUE4Parse.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse\obj\Release\net8.0\CUE4Parse.sourcelink.json" />
+      <_ContentIncludedByDefault Remove="CUE4Parse\CUE4Parse\Resources\PUBGNameHashMap.json" />
     </ItemGroup>
     
 </Project>

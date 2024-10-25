@@ -31,7 +31,7 @@ FText UJsonAsAssetSettings::GetSectionText() const
 TArray<FString> UJsonAsAssetSettings::GetParseVersions()
 {
 	TArray<FString> EnumNames;
-	for (int Version = GAME_UE4_0; Version <= GAME_UE5_4; ++Version)
+	for (int Version = GAME_UE4_0; Version <= GAME_UE5_5; ++Version)
 	{
 		EnumNames.Add(StaticEnum<EParseVersion>()->GetNameStringByIndex(Version));
 	}

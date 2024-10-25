@@ -16,6 +16,7 @@ using SkiaSharp;
 using CUE4Parse.FileProvider;
 using System.Runtime.InteropServices;
 using System.IO;
+using CUE4Parse.Compression;
 
 // Global Provider
 public class Globals
@@ -122,6 +123,9 @@ public class Globals
         // Create new file provider
         Provider = new DefaultFileProvider(ArchiveDirectory, SearchOption.TopDirectoryOnly, true, new VersionContainer(UnrealVersion));
         Provider.Initialize();
+        var oodlePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, OodleHelper.OODLE_DLL_NAME);
+        if (!File.Exists(oodlePath)) await OodleHelper.DownloadOodleDllAsync(oodlePath);
+        OodleHelper.Initialize(oodlePath);
 
         if (ArchiveKey != "")
         {
